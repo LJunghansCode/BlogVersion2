@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <title>Luca Junghans | Software </title>
+<head>
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Document</title>  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/sass/main.css"> 
+    <link rel="stylesheet" href="/static/sass/nav.css"> 
+    <link rel="stylesheet" href="/static/sass/footer.css"> 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="./static/js/nav.js"></script>
+    <script src="angular/angular.js"></script>
+    <script src="angular-route/angular-route.js"></script>                
+    <script src="app.js"></script>
+    <script src="./controllers/HomeController.js"></script>
+    <script src="./controllers/adminController.js"></script>
+    <script src="./controllers/blogPostController.js"></script>
+    <script src="./factories/blogPostFactory.js"></script>
+    <script src="./controllers/loginController.js"></script>
+    <script src="./factories/loginFactory.js"></script>
+    <script src="/static/js/blog.js"></script>
+</head>
+<body class="pageContainer" ng-controller="homeController">
+<div class="navContainer">
+    <nav class="NavBar">
+            <a class="navbar-brand" href="/#!home"><img class="linkLogo" src="./static/img/justLogo_animated.svg" alt="justLogo"></a>
+            <img class="titleLogo" src="./static/img/justText_animated.svg" alt="justtext">
+        <article class="stickyNavContainer">
+        <ul class="navList">
+            <li class="animLink"><a href="/#!about">Resume</a></li>
+            <li class="animLink"><a href="/#!blog">Blog</a></li>
+            <li class="animLink"><a href="/#!contact">Contact Me</a></li>
+        </ul>
+        </article>  
+    </nav>
+</div>
+<!--<div id="loader-wrapper">
+    <div id="loader"></div>
+</div>-->
+<main class="mainContentWrapper">
+<ng-view></ng-view>
+</main>
+<footer class="footerContainer">
+<div class="skills">
+    <ul>
+        <li><image src="./static/img/angular-icon.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/css-3.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/express.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/html-5.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/javascript.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/mongodb.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/nodejs.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/npm.svg" class="skillsLogo"> </image></li>
+        <li><image src="./static/img/webpack.svg" class="skillsLogo"> </image></li>
+    </ul>          
+</div>
+    <ul>
+        <li>
+            <a href="https://twitter.com/JunghansCode">
+                <span class="fa-stack fa-lg externalIcon">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/LJunghansCode">
+                <span class="fa-stack fa-lg externalIcon">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+             <a href="https://www.linkedin.com/in/lucajunghans/">
+                <span class="fa-stack fa-lg externalIcon">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>
