@@ -5,4 +5,14 @@
   padding: 50px;
   margin-top: 8%; }
 
+.skills {
+  padding: 1%; }
+
+.smIcon {
+  text-decoration: none;
+  color: #F29557; }
+
+.smIcon:hover {
+  color: #000516; }
+
 /*# sourceMappingURL=footer.css.map */

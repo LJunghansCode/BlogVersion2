@@ -1,7 +1,20 @@
+$primaryColor: #F29557;
+$graphic2: #000516;
+
 .footerContainer {
     text-align: center;
     color: #fff;
     background: #727d82;
     padding: 50px;
     margin-top: 8%;
+}
+.skills {
+    padding: 1%;
+}
+.smIcon {
+    text-decoration: none;
+    color: $primaryColor;
+}
+.smIcon:hover {
+    color: $graphic2;
 }

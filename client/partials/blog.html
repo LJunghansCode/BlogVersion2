@@ -1,13 +1,10 @@
 
-          <article>
+          <article class="blog-post-list">
                 <ul class="bracketAnimList">
-                    <li ng-repeat="blog in allPosts" class="hoverbg">
+                    <li ng-repeat="blog in allPosts" class="hoverbg" style="background-image: url({{blog.picOne}})">
                             <a href="#!/blog/{{blog._id}}" ng-bind="blog.title" class="post-title"></a>
-                            <p class="post-meta">Posted by Luca Junghans </p>
+                            <p>Posted by Luca Junghans </p>
                     </li>
                 </ul>
           </article>
                    
-        <hr>
-
-</div>
