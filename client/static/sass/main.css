@@ -55,7 +55,7 @@ footer ul li {
   flex: 1;
   text-align: center;
   background-color: white;
-  width: 96%; }
+  width: 99%; }
 
 .landingLinksContainer {
   width: 100%; }
@@ -172,9 +172,10 @@ footer ul li {
 
   .homeBlock {
     border: 4px solid #36454F;
+    margin: 0 auto;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    width: 100%; }
+    width: 95%; }
 
   .homeBlockList a {
     text-decoration: none; } }
