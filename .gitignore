@@ -29,3 +29,5 @@ config/env/local-*.js
 *.pem
 
 
+.sass-cache/
+*.css.map
