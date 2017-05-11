@@ -22,11 +22,15 @@ app.config(function($routeProvider){
         })
         .when('/create', {
             templateUrl: './partials/create.html',
-            controller : 'adminController'
+            controller: 'adminController'
         })
         .when('/admin', {
             templateUrl: '/partials/admin.html',
-            controller : 'loginController'
+            controller: 'loginController'
+        })
+        .when('/booking', {
+            templateUrl: '/partials/booking.html',
+            controller: 'bookingController'
         })
         .otherwise('/home', {
             redirectTo: '/home'
