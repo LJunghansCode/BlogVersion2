@@ -1,7 +1,6 @@
 var app = angular.module('app', ['ngRoute']);
 console.log("Built by Luca Junghans, sup");
-
-app.config(function($routeProvider){
+app.config(function($routeProvider, $locationProvider){
     $routeProvider
         .when('/home', {
             templateUrl: './partials/home.html',
@@ -36,5 +35,5 @@ app.config(function($routeProvider){
         .otherwise('/home', {
             redirectTo: '/home'
         });
-
+        $locationProvider.html5Mode(true);
 });

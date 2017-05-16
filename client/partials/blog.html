@@ -1,9 +1,8 @@
 
 
 <ul class="blog-post-list">
-     <a href="#!/blog/{{blog._id}}" ng-bind="blog.title" class="post-title">
-      <li ng-repeat="blog in allPosts" style="background-image: url({{blog.picOne}})">
-     </a>
-    <p> Posted by Luca Junghans </p>
-    </li>
+    <li ng-repeat="blog in allPosts" style="background-image: url({{blog.picOne}})">
+     <a href="#!/blog/{{blog._id}}" ng-bind="blog.title" class="post-title">    
+    <p> Posted by Luca Junghans</p>
+    </li></a>
 </ul>
