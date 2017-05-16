@@ -1,4 +1,5 @@
 var app = angular.module('app', ['ngRoute']);
+console.log("Built by Luca Junghans, sup");
 
 app.config(function($routeProvider){
     $routeProvider

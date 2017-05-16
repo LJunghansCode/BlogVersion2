@@ -20,8 +20,6 @@
   },
   "dependencies": {
     "angular-route": "^1.6.2",
-    "angular": "^1.6.2",
-    "fullcalendar": "^3.4.0",
-    "fullcalendar-scheduler": "^1.6.2"
+    "angular": "^1.6.2"
   }
 }

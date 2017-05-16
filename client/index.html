@@ -2,22 +2,13 @@
 <html lang="en" ng-app="app">
     <title>Luca Junghans | Software </title>
 <head>
-     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>Document</title>  
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/static/sass/main.css"> 
     <link rel="stylesheet" href="/static/sass/nav.css"> 
     <link rel="stylesheet" href="/static/sass/footer.css">
- 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-99013741-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/favicon.ico" />
 </head>
 <body class="pageContainer" ng-controller="homeController">
 <div class="navContainer">
@@ -33,7 +24,10 @@
         </article>  
     </nav>
 </div>
-
+  <div id="overlay">
+    <div id="progstat"></div>
+    <div id="progress"></div>
+  </div>
 <main class="mainContentWrapper">
 <ng-view></ng-view>
 </main>
@@ -80,6 +74,7 @@
 </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="./static/js/nav.js"></script>
+    <script src="./static/js/loader.js"></script>
     <script src="angular/angular.min.js"></script>
     <script src="angular-route/angular-route.js"></script>                
     <script src="app.js"></script>
@@ -90,5 +85,6 @@
     <script src="./controllers/loginController.js"></script>
     <script src="./factories/loginFactory.js"></script>
     <script src="/static/js/nav.js"></script>
+    <script src="/static/js/google.js"></script>
  </body>
 </html>
