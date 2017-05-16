@@ -35,5 +35,4 @@ app.config(function($routeProvider, $locationProvider){
         .otherwise('/home', {
             redirectTo: '/home'
         });
-        $locationProvider.html5Mode(true);
 });
