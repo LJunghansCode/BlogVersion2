@@ -9,10 +9,10 @@ a:hover {
   cursor: pointer; }
 
 input {
-  background-color: #F29557; }
+  background-color: #327aff; }
 
 textarea {
-  background-color: #F29557; }
+  background-color: #327aff; }
 
 h1 {
   font-size: 40pt; }
@@ -36,7 +36,7 @@ body {
   color: #000516; }
 
 .emailLink:hover {
-  color: #F29557; }
+  color: #327aff; }
 
 .pageContainer {
   background-color: white;
@@ -81,19 +81,19 @@ footer ul li {
   color: white; }
 
 .projTitle {
-  color: #F29557;
+  color: #327aff;
   margin-top: 1%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./../img/graphic2.svg"); }
+  background-image: url("./../img/graphic2.png"); }
 
 .sectionTitle {
   background-size: cover;
   background-position: center;
   background-position-x: 70px;
   background-repeat: no-repeat;
-  background-image: url("./../img/graphic.svg"); }
+  background-image: url("./../img/graphic.png"); }
 
 .projectContainer a {
   text-decoration: none; }
@@ -155,7 +155,7 @@ footer ul li {
   .navContainer {
     text-align: center;
     margin: 0 auto;
-    background-color: #F29557;
+    background-color: #327aff;
     width: 100%; }
 
   .projTitle {
@@ -186,7 +186,7 @@ footer ul li {
   .navContainer {
     text-align: center;
     margin: 0 auto;
-    background-color: #F29557;
+    background-color: #327aff;
     width: 100%; }
 
   .aboutLuca {

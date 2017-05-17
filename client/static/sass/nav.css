@@ -63,7 +63,7 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 1%;
-    background-color: #F29557;
+    background-color: #327aff;
     width: 98%; }
 
   .stickyNavContainer {
@@ -82,7 +82,7 @@
 
   .stickyNavContainer.is-fixed {
     position: fixed;
-    background-color: #F29557;
+    background-color: #327aff;
     top: -21px;
     z-index: 1000;
     width: 98%;
@@ -95,7 +95,7 @@
     transform: translate3d(0, 100%, 0); }
 
   .stickyNavContainer.is-visible {
-    background-color: #F29557;
+    background-color: #327aff;
     opacity: .5; } }
 
 /*# sourceMappingURL=nav.css.map */

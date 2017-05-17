@@ -12,6 +12,7 @@ app.controller('blogPostController', ['$scope', '$timeout', '$routeParams', 'pos
 			  scope.blogInstance = data.data;
 		});
 	}
+  
    allPosts(); 
 }]);
  

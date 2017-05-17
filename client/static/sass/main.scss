@@ -1,5 +1,5 @@
     $charcoal: #36454F;
-    $primaryColor: #F29557;
+    $primaryColor: #327aff;
     $backgroundColor: white;
     $graphic2: #000516;
     * {
@@ -109,7 +109,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url('./../img/graphic2.svg');
+        background-image: url('./../img/graphic2.png');
     }
     
     .sectionTitle {
@@ -117,7 +117,7 @@
         background-position: center;
         background-position-x: 70px;
         background-repeat: no-repeat;
-        background-image: url('./../img/graphic.svg');
+        background-image: url('./../img/graphic.png');
     }
     
     .projectContainer a {
