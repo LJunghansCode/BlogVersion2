@@ -5,7 +5,7 @@ var multiparty = require('multiparty'),
 
 module.exports = (function(){
     return{
-        newBlog : function(req, res){
+        newBlog : (req, res) => {
 			var postInstance = new blogPost(req.body);
 			postInstance.save(function(err){
 				if(err){
@@ -15,7 +15,7 @@ module.exports = (function(){
 				}
 			});
 		},
-        allPosts : function(req, res){
+        allPosts : (req, res) => {
             blogPost.find(function(err, posts){
                 if(err){
                     console.log(err);
@@ -24,7 +24,7 @@ module.exports = (function(){
                 }
             });
         },
-        onePost : function(req, res){
+        onePost : (req, res) => {
             blogPost.findOne({_id : req.params.id}, function(err, post){
                 if(err){
                 }else{
