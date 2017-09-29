@@ -73,9 +73,14 @@ footer ul li {
   background-image: url("./../img/Lucaheadshot.jpg"); }
 
 .projectContainer {
+  border-radius: 1px;
   margin: 0 auto;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 100%; }
+.projectContainer:hover {
+  background: lightgrey;
+}
 
 .projTitle a {
   color: white; }
@@ -99,8 +104,8 @@ footer ul li {
   text-decoration: none; }
 
 .projectContainer p {
-  width: 100%;
-  margin-top: 3%;
+  width: 75%;
+  margin-top: 1%;
   display: inline-block; }
 
 .projectContainer img {
