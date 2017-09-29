@@ -73,6 +73,7 @@ footer ul li {
   background-image: url("./../img/Lucaheadshot.jpg"); }
 
 .projectContainer {
+  transition: all 1s;
   border-radius: 1px;
   margin: 0 auto;
   margin-top: 5%;
